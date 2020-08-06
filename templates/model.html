@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td {
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+            }
+    </style>
+</head>
+<body>
+    <table>
+        {% for param in self.params %}
+        <tr>
+            <td>{ self.params['p1']}</td>
+            <td>{ self.params['p2']</td>
+            <td>{ self.params['p3']</td>
+        </tr>
+        <tr>
+            <td>{ self.params['p4']</td>
+            <td>{ self.params['p5']</td>
+            <td>{ self.params['p6']</td>
+        </tr>
+        <tr>
+            <td>{ self.params['p7']</td>
+            <td>{ self.params['p8']</td>
+            <td>{ self.params['p9']</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
